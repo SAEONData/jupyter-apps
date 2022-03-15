@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  jupyter-apps:
+    container_name: jupyter-apps
+    build: .
+    network_mode: host
+    environment:
+      - EARTHENGINE_TOKEN
+    restart: unless-stopped

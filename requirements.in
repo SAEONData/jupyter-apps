@@ -1,0 +1,3 @@
+git+https://github.com/SAEONData/voila.git@saeon#egg=voila
+ipykernel
+geemap
