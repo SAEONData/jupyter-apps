@@ -1,6 +1,6 @@
 FROM python:3.9-bullseye
 
-RUN apt-get update && apt-get install -y nodejs npm
+RUN apt-get update && apt-get install -y nodejs npm ffmpeg
 
 WORKDIR /srv
 COPY requirements.txt ./
